@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 **average_charge** | **float** | Internal Use. 255 indicates plugged in and charging. | [optional] 
 **created** | **datetime** | Timestamp for when the datapoint was received and processed by the server | 
 **address** | **str** | A reverse geocode result for the point | [optional] 
-**alert_type** | **float** | Bitfield indicating what alerts where active at transmission time   Bit1(1): Freefall / Drop detected,    Bit2(2): Rotation detected,    Bit3(4): GSM jamming detected,    Bit4(8): Button was pressed,    Bit5(16): Generic Alert  | [optional] 
+**alert_type** | **float** | Bitfield indicating what alerts where active at transmission time   Bit1(1): Freefall / Drop detected,    Bit2(2): Rotation detected,    Bit3(4): GSM jamming detected,    Bit4(8): Button was pressed,    Bit5(16): Generic Alert    Bit6(32): Ignition input high| [optional] 
 **current_used** | **float** | Current Used to send this location in microAmp Hours | [optional] 
 **gsm_signal** | **float** | GSM CSQ value | [optional] 
 **id** | **float** |  | [optional] 
